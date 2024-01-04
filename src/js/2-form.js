@@ -26,9 +26,6 @@ form.addEventListener('input', onInputData);
 form.addEventListener('submit', onFormSubmit);
 
 let dataForm = loadFormData();
-// ON.parse(localStorage.getItem(LOCAL_KEY)) || {};
-// const { email, message } = form.elements;
-// reloadPage();
 
 function onInputData(e) {
   const { email, message } = form.elements;
